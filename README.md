@@ -7,7 +7,7 @@ React 18 + TypeScript SPA powered by a Server-Driven UI — layout and content a
 ## Prerequisites
 
 - Node.js 20+
-- The [MealBox backend](../backend) running on `http://localhost:3001`
+- The [MealBox backend](https://github.com/Ninna-log/meal-box-backend) running on `http://localhost:3001`
 
 ---
 
@@ -69,10 +69,10 @@ frontend/
 
 ## Pages
 
-| Route        | Page           | Description                                      |
-| ------------ | -------------- | ------------------------------------------------ |
-| `/`          | `Home`         | Fetches `/bff/home` and renders the SDUI tree    |
-| `/meals/:id` | `MealDetail`   | Fetches `/meals/:id` and shows full meal details |
+| Route        | Page         | Description                                      |
+| ------------ | ------------ | ------------------------------------------------ |
+| `/`          | `Home`       | Fetches `/bff/home` and renders the SDUI tree    |
+| `/meals/:id` | `MealDetail` | Fetches `/meals/:id` and shows full meal details |
 
 ---
 
